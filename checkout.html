@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+    <html lang="en"/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="keywords" content="">
+        <meta name="Evan Faherty" content="">
+        <title>Football Shirts Ireland</title>
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+</head>
+<body>
+    <div class="container"/>
+    <h1>Football Shirts Ireland</h1>
+<main>
+<!-- Dropdown Code -->
+<div class="container"/>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link " href="index.html">Home </a>
+      <a class="nav-item nav-link" href="shop.html">Shop<span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="contact.html">Contact</a>
+        <a class="nav-item nav-link" href="about.html">About Us</a>
+    </div>
+  </div>
+    <div class="btn-toolbar">
+        <a class="nav-item nav-link" href="login.html">
+        <button type="button" class="btn btn-danger">Login<span class="badge badge-light" id="login"></span>
+        </button></a>
+    </div> 
+      
+    <div class="btn-toolbar">
+        <a class="nav-item nav-link" href="checkout.html">
+        <button type="button" class="btn btn-secondary ml-2">
+          Checkout <span class="badge badge-light" id="checkout"></span>
+        </button>
+        </a>
+    </div>
+    </div> 
+</nav> 
+<!-- End of Nav Code -->
+    
+<!-- Checkout Code -->
+<h1>Checkout</h1>
+    <p>Below you will find all the items you have added to your basket and can enter your card details below to continue and finalize your purchase/purchases.</p>
+<div class="row" id="Checkout">    
+        <div class="col-sm col-md-4"> 
+            <form name="registration" action="" method="get">
+                <legend>Delivery Details</legend>
+                <div class="form-group">
+                    <label for="getFirst">First Name</label>
+                    <input type="text" class="form-control" id="getFirst" name="firstname" placeholder="Enter first name" required>
+                </div>
+                <div class="form-group">
+                    <label for="getLast">Last Name</label>
+                    <input type="text" class="form-control" id="getLast" name="lastname" placeholder="Enter last name" required>
+                </div>
+                <div class="form-group">
+                    <label for="getMobile">Mobile Number</label>
+                    <input type="number" class="form-control" id="getMobileNumber" name="mobilenumber" placeholder="Enter mobile number">
+                </div>
+                <div class="form-group">
+                    <label for="getAddress">Address Line 1</label>
+                    <input type="text" class="form-control" id="getAddress" name="address" placeholder="Enter Address" required>
+                </div>
+                <div class="form-group">
+                    <label for="getAddress2">Address Line 2</label>
+                    <input type="text" class="form-control" id="getAddress2" name="Address2" placeholder="Enter Address" required>
+                </div>
+                <div class="form-group">
+                    <label for="getAddress3">Address Line 3</label>
+                    <input type="text" class="form-control" id="getAddress3" name="Address3" placeholder="Enter Address" required>
+                </div>
+                <div class="form-group">
+                    <label for="getCity">City/Town Name</label>
+                    <input type="text" class="form-control" id="getCity" name="City" placeholder="Enter city/town name">
+                </div>
+                <div class="form-group">
+                    <label for="getEircode">Eircode</label> 
+                    <input type="text" class="form-control" id="getEir" name="Eircode" placeholder="Enter Eircode">
+                </div>
+                <br>
+                <br>
+            <fieldset>
+                <legend>Credit Card Information</legend>
+                <div class="form-group">
+                    <label for="getCardName">Enter Card Holders Name:</label>
+                    <input type="text" class="form-control" id="getCardName" name="CardName" placeholder="Enter Full Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="getCredit">Credit Card Number</label>
+                    <input type="number" class="form-control" id="getCredit" name="Credit" placeholder="0123-4567-8901-2345" required>
+                </div>
+                <div class="form-group">
+                    <label for="getCardDate">Credit Card Expiry Date</label>
+                    <input type="date" class="form-control" id="getCardDate" name="CardDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="getCard">Credit Card 3 diget Number</label>
+                    <input type="password" class="form-control" id="getDiget" name="CardDigets" placeholder="123" required>
+                </div>
+            </fieldset>
+                <div class="alert alert-success d-none" id="payment-success" role="alert">
+                    Thank you for your order! You will receive your delivery details via email.
+                </div>
+                <div class="alert alert-danger d-none" id="payment-failure" role="alert">
+                  There seems to be a problem with the card details you entered.
+                </div>
+                <input type='submit' class="btn btn-primary" id="buy-button" value="Buy Now">
+                <div class="alert alert-success" role="alert">Congratulations! Your order has been placed. You will receive an email once your order number has been confirmed!</div>
+            </form>
+        </div> 
+    </div>
+    <br>
+    <!-- End of Checkout Code -->
+</main>
+<br>
+    <br>
+<footer>
+    <div class="container"/> 
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <a class="navbar-brand" href="#">&copy;Copyright &#64;2020 Football Shirts Ireland</a>
+    </nav>
+</footer>
+    <!-- Sources foir JavaScript -->
+    <script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="css/customcss/script.js"></script>
+</body>
+</html>
